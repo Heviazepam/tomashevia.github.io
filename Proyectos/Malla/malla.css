@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(255, 252, 249);  
+}
+
+table {
+    padding: 10px;
+    border: 5px solid rgb(0, 0, 0);
+    margin: 0;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    empty-cells: hide;
+} 
+
+th{
+    padding: 10px;
+    border: 3px solid BlueViolet;
+    margin: 0;
+    width: 900px;
+    text-align: center;
+    font-family: Courier new;
+    font-size: large;
+}
+
+a {
+    color: black;
+}
+
+td{
+    
+  padding: 10px;
+  border: 3px solid forestgreen;
+  margin: 0;
+  width: 900px;
+  text-align: center;
+  
+  font-family: Courier new;
+  font-size: large;
+}
+
+.op{
+  border-color: coral;
+}

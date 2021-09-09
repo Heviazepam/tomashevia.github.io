@@ -1,0 +1,136 @@
+body {
+    background-color: rgb(255, 252, 249);
+    margin: 0;
+}
+
+.section {
+    margin: 0 15px 15px 15px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(193, 215, 196);
+    border-radius: 10px;
+}
+
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+
+nav{
+    background-color:rgb(52, 73, 102);
+    display: block;
+    position: fixed;
+    border-bottom: 1px solid rgba(34,36,38,.15);
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
+.item {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 5px 5px 5px 5px;
+}
+
+.item:hover{
+    background-color: darkgray;
+}
+
+.mini_menu {
+    margin: 0 auto 0 auto;
+    display: block;
+    width: 10%;
+    margin-bottom: 20px;
+}
+
+.mini_item {
+    border-bottom: 2px solid grey;
+    padding: 3px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.mini_item:hover{
+    color: grey;
+    cursor: pointer;
+}
+
+.underline{
+    border-bottom: 2px solid black;
+}
+
+.subpage {
+    visibility: hidden;
+}
+
+.active {
+    visibility: visible;
+}
+
+img {
+    width: 250px;
+    border-radius: 10%;
+}
+
+h1 {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 66px;
+	margin-bottom: 30px;
+	text-rendering: optimizelegibility;
+}
+
+#bio {
+    color: rgb(134, 150, 144);
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 22px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	max-width: 30%;
+}
+
+#work h2 {
+    margin-bottom: 5px;
+}
+
+.bottom_links{
+    text-decoration: none;
+    color: rgb(134, 150, 144);
+    display: block;
+    margin: 5px;
+}
+
+.encuesta {
+    display: block;
+    margin: 5px auto 5px auto;
+    padding: 5px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 350px;
+    min-height: 20px;
+}
+
+textarea {
+    min-width: 350px;
+    max-width: 350px;
+    height: 350px;
+}
+
+.copyright {
+	font-size: 8pt;
+    text-align: left;
+    color: grey;
+    margin: 0 0 5px 15px;
+    letter-spacing: 1px;
+}
