@@ -1,3 +1,3 @@
 # tomashevia.github.io
 
-> test
+http://tomashevia.me
