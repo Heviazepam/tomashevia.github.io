@@ -1,3 +1,3 @@
-# tomashevia.github.io
+# tomashevia.me
 
 http://tomashevia.me
