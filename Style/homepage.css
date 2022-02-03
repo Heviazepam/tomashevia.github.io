@@ -135,4 +135,5 @@ textarea {
     color: grey;
     margin: 0 0 5px 15px;
     letter-spacing: 1px;
+    vertical-align: bottom;
 }
